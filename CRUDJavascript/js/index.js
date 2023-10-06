@@ -1,8 +1,8 @@
 import { CRUD } from "./Crud.js";
 function App(){
-    let nombre = new CRUD("nombre");
-    nombre.Create("juan");
-    console.log(nombre.ReadAll());
+    let crud = new CRUD("numeros");
+    crud.Create("ramirez");
+    console.log(crud.ReadAll());
 }
 
 App();
