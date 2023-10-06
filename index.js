@@ -3,7 +3,7 @@ function App(){
     let crud = new CRUD("numeros");
     crud.Create("ramirez");
     crud.Create("Juan");
-    crud.Delete(0);
+    crud.Update(1, "Sebastian");
     console.log(crud.ReadAll());
 }
 
